@@ -34,7 +34,7 @@ $.ajax('http://spamgroup.tonyq.org/groups/jsonp', {
 // 設定 Facebook AppID
 window.fbAsyncInit = function(){
   FB.init({
-    appId: '259195264246285', // 若可以，請換成自己的 App ID !
+    appId: '765883793452285', // 若可以，請換成自己的 App ID !
     status: true
   });
 
