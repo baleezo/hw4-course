@@ -16,7 +16,8 @@ $.getJSON('http://jsbin.com/jaziroja/1', {}, function(data){
   startButton.removeAttr('disabled').removeClass('disabled'); 
 });
 
-$.ajax('http://spamgroup.tonyq.org/groups/jsonp', {
+//$.ajax('http://spamgroup.tonyq.org/groups/jsonp', {
+$.ajax('http://jsbin.com/jaziroja/1', {
   dataType: 'jsonp',
   jsonp: 'jsonp',
   success: function(data)
