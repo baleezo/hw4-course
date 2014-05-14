@@ -20,7 +20,7 @@ $.getJSON('http://jsbin.com/jaziroja/1', {}, function(data){
 // 設定 Facebook AppID
 window.fbAsyncInit = function(){
   FB.init({
-    appId: '699520453426867', // 若可以，請換成自己的 App ID !
+    appId: '765883793452285', // 若可以，請換成自己的 App ID !
     status: true
   });
 
